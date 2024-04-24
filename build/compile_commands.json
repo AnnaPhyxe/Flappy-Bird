@@ -1,0 +1,44 @@
+[
+{
+  "directory": "C:/Users/annab/OneDrive/Skrivebord/Projekter i programmering/flappy_bird/build",
+  "command": "C:\\Users\\annab\\scoop\\apps\\mingw\\current\\bin\\g++.exe  @CMakeFiles/flappy_bird.dir/includes_CXX.rsp -g -o CMakeFiles\\flappy_bird.dir\\main.cpp.obj -c \"C:\\Users\\annab\\OneDrive\\Skrivebord\\Projekter i programmering\\flappy_bird\\main.cpp\"",
+  "file": "C:/Users/annab/OneDrive/Skrivebord/Projekter i programmering/flappy_bird/main.cpp",
+  "output": "CMakeFiles/flappy_bird.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/annab/OneDrive/Skrivebord/Projekter i programmering/flappy_bird/build",
+  "command": "C:\\Users\\annab\\scoop\\apps\\mingw\\current\\bin\\g++.exe  @CMakeFiles/flappy_bird.dir/includes_CXX.rsp -g -o CMakeFiles\\flappy_bird.dir\\Game.cpp.obj -c \"C:\\Users\\annab\\OneDrive\\Skrivebord\\Projekter i programmering\\flappy_bird\\Game.cpp\"",
+  "file": "C:/Users/annab/OneDrive/Skrivebord/Projekter i programmering/flappy_bird/Game.cpp",
+  "output": "CMakeFiles/flappy_bird.dir/Game.cpp.obj"
+},
+{
+  "directory": "C:/Users/annab/OneDrive/Skrivebord/Projekter i programmering/flappy_bird/build",
+  "command": "C:\\Users\\annab\\scoop\\apps\\mingw\\current\\bin\\g++.exe  @CMakeFiles/flappy_bird.dir/includes_CXX.rsp -g -o CMakeFiles\\flappy_bird.dir\\Bird.cpp.obj -c \"C:\\Users\\annab\\OneDrive\\Skrivebord\\Projekter i programmering\\flappy_bird\\Bird.cpp\"",
+  "file": "C:/Users/annab/OneDrive/Skrivebord/Projekter i programmering/flappy_bird/Bird.cpp",
+  "output": "CMakeFiles/flappy_bird.dir/Bird.cpp.obj"
+},
+{
+  "directory": "C:/Users/annab/OneDrive/Skrivebord/Projekter i programmering/flappy_bird/build",
+  "command": "C:\\Users\\annab\\scoop\\apps\\mingw\\current\\bin\\g++.exe  @CMakeFiles/flappy_bird.dir/includes_CXX.rsp -g -o CMakeFiles\\flappy_bird.dir\\Pibe.cpp.obj -c \"C:\\Users\\annab\\OneDrive\\Skrivebord\\Projekter i programmering\\flappy_bird\\Pibe.cpp\"",
+  "file": "C:/Users/annab/OneDrive/Skrivebord/Projekter i programmering/flappy_bird/Pibe.cpp",
+  "output": "CMakeFiles/flappy_bird.dir/Pibe.cpp.obj"
+},
+{
+  "directory": "C:/Users/annab/OneDrive/Skrivebord/Projekter i programmering/flappy_bird/build",
+  "command": "C:\\Users\\annab\\scoop\\apps\\mingw\\current\\bin\\g++.exe  @CMakeFiles/flappy_bird.dir/includes_CXX.rsp -g -o CMakeFiles\\flappy_bird.dir\\Game_Over.cpp.obj -c \"C:\\Users\\annab\\OneDrive\\Skrivebord\\Projekter i programmering\\flappy_bird\\Game_Over.cpp\"",
+  "file": "C:/Users/annab/OneDrive/Skrivebord/Projekter i programmering/flappy_bird/Game_Over.cpp",
+  "output": "CMakeFiles/flappy_bird.dir/Game_Over.cpp.obj"
+},
+{
+  "directory": "C:/Users/annab/OneDrive/Skrivebord/Projekter i programmering/flappy_bird/build",
+  "command": "C:\\Users\\annab\\scoop\\apps\\mingw\\current\\bin\\g++.exe  @CMakeFiles/flappy_bird.dir/includes_CXX.rsp -g -o CMakeFiles\\flappy_bird.dir\\Start_Menu.cpp.obj -c \"C:\\Users\\annab\\OneDrive\\Skrivebord\\Projekter i programmering\\flappy_bird\\Start_Menu.cpp\"",
+  "file": "C:/Users/annab/OneDrive/Skrivebord/Projekter i programmering/flappy_bird/Start_Menu.cpp",
+  "output": "CMakeFiles/flappy_bird.dir/Start_Menu.cpp.obj"
+},
+{
+  "directory": "C:/Users/annab/OneDrive/Skrivebord/Projekter i programmering/flappy_bird/build",
+  "command": "C:\\Users\\annab\\scoop\\apps\\mingw\\current\\bin\\g++.exe  @CMakeFiles/flappy_bird.dir/includes_CXX.rsp -g -o CMakeFiles\\flappy_bird.dir\\Button.cpp.obj -c \"C:\\Users\\annab\\OneDrive\\Skrivebord\\Projekter i programmering\\flappy_bird\\Button.cpp\"",
+  "file": "C:/Users/annab/OneDrive/Skrivebord/Projekter i programmering/flappy_bird/Button.cpp",
+  "output": "CMakeFiles/flappy_bird.dir/Button.cpp.obj"
+}
+]

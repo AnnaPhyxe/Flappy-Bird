@@ -1,0 +1,3 @@
+C:/Users/annab/OneDrive/Skrivebord/Projekter i programmering/flappy_bird/build/CMakeFiles/flappy_bird.dir
+C:/Users/annab/OneDrive/Skrivebord/Projekter i programmering/flappy_bird/build/CMakeFiles/edit_cache.dir
+C:/Users/annab/OneDrive/Skrivebord/Projekter i programmering/flappy_bird/build/CMakeFiles/rebuild_cache.dir
