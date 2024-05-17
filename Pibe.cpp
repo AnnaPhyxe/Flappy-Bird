@@ -9,6 +9,7 @@ Pibe::Pibe(int y_pos){
 
     this->pipe_dist = 700;
     this->move_speed = 400;
+    this->point_given = false;
 
     this->sp_up.setTexture(pipe_up);
     this->sp_down.setTexture(pipe_down);
@@ -28,7 +29,18 @@ void Pibe::load_textures(){
     this->loaded = true;
 }
 
-float Pibe::getBounds(){
+int Pibe::pibe_passed(Bird &player){
+    if(!this->point_given){
+        if(player.bird.getGlobalBounds().left > this->sp_down.getGlobalBounds().left && (player.bird.getGlobalBounds().left + player.bird.getGlobalBounds().width) <
+            (this->sp_down.getGlobalBounds().left + this->sp_down.getGlobalBounds().width)){
+            this->point_given = true;
+            return 1;
+        }
+    }
+    return 0;
+}
+
+float Pibe::getRightBounds(){
     return this->sp_down.getGlobalBounds().left + this->sp_down.getGlobalBounds().width;
 }
 

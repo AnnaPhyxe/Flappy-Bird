@@ -2,6 +2,7 @@
 
 #include <SFML/Graphics.hpp>
 #include <iostream>
+#include "Bird.h"
 
 class Pibe
 {
@@ -12,8 +13,10 @@ public:
     static sf::Texture pipe_up;
     static sf::Texture pipe_down;
     bool loaded = false;
+    bool point_given;
+    int pibe_passed(Bird &player);
     void update(sf::Time&);
-    float getBounds();
+    float getRightBounds();
     void load_textures();
 
 private:

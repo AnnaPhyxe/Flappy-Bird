@@ -55,6 +55,7 @@ class Game{
         bool monitoring;
         bool start;
         int score;
+        int pipes_present;
 
         std::vector<Pibe> pipes;
         std::random_device rd;

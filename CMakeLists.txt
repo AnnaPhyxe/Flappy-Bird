@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0.0)
+cmake_minimum_required(VERSION 3.5.0)
 project(flappy_bird VERSION 0.1.0)
 
 set(CPP_FILES main.cpp Game.cpp Bird.cpp Pibe.cpp Game_Over.cpp Start_Menu.cpp Button.cpp)

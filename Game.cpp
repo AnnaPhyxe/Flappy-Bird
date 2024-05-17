@@ -14,6 +14,7 @@ Game::Game()
     this->monitoring = false;
     this->score = 0;
     this->start = false;
+    this->pipes_present = 0;
 
     this->load_assets();
     this->init();
@@ -118,8 +119,8 @@ void Game::init()
     this->score_text.setFont(this->font);
     this->score_text.setFillColor(sf::Color::White);
     this->score_text.setCharacterSize(60);
-    this->score_text.setPosition((640 + (this->score_text.getGlobalBounds().width) / 2.f) / 2.f, 150);
     this->score_text.setString("0");
+    this->score_text.setPosition((640 + this->score_text.getLocalBounds().width) / 2.f, 150);
 
     // Sound
     this->jump_sound.setBuffer(this->jump_sound_buffer);
@@ -162,23 +163,13 @@ void Game::check_point()
 {
     if (this->pipes.size() > 0)
     {
-        if (!this->monitoring)
-        {
-            if (this->player.bird.getGlobalBounds().left > this->pipes[0].sp_down.getGlobalBounds().left &&
-                this->player.getRightBound() < this->pipes[0].getBounds())
-            {
-                this->monitoring = true;
-            }
-        }
-        else
-        {
-            if (this->player.bird.getGlobalBounds().left > (this->pipes[0].getBounds() / 2.f))
-            {
-                this->score++;
+        for(Pibe& pibe : this->pipes){
+            int point = pibe.pibe_passed(this->player);
+            this->score+=point;
+            if(point > 0){
                 this->score_text.setString(std::to_string(this->score));
                 this->point_sound.play();
-                this->monitoring = false;
-            }
+            }   
         }
     }
 }
@@ -188,7 +179,8 @@ void Game::reset_game()
     this->player.reset_bird_position();
     this->gameover = false;
     this->score = 0;
-    this->score_text.setPosition((640 + (this->score_text.getGlobalBounds().width) / 2.f) / 2.f, 150);
+    this->score_text.setString(std::to_string(this->score));
+    this->score_text.setPosition((640 + this->score_text.getLocalBounds().width) / 2.f, 150);
     this->start = false;
     this->pipes.clear();
     this->player.fall_start = false;
@@ -210,7 +202,7 @@ void Game::update_game_logic(sf::Time &dt)
     for (int i = 0; i < this->pipes.size(); i++)
     {
         this->pipes[i].update(dt);
-        if (pipes[i].getBounds() < 0)
+        if (pipes[i].getRightBounds() < 0)
         {
             this->pipes.erase(this->pipes.begin() + i);
         }

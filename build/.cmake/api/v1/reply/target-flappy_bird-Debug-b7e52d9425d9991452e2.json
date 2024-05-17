@@ -66,7 +66,7 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/annab/OneDrive/Skrivebord/Projekter i programmering/flappy_bird/SFML/include"
+					"path" : "C:/Projekter_Programmering/Ny mappe/Flappy-Bird/SFML/include"
 				}
 			],
 			"language" : "CXX",
@@ -97,7 +97,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LC:\\Users\\annab\\OneDrive\\SKRIVE~1\\PROJEK~1\\FLAPPY~1\\SFML\\lib",
+				"fragment" : "-LC:\\PROJEK~1\\NYMAPP~1\\FLAPPY~1\\SFML\\lib",
 				"role" : "libraryPath"
 			},
 			{
